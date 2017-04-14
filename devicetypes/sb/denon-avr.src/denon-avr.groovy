@@ -123,8 +123,8 @@ preferences {
             state "ON", label: 'Chromcast', action: "dvd", icon:"st.Electronics.electronics14", backgroundColor: "#53a7c0", nextState:"OFF"               
         	}
 		standardTile("input5", "device.mp", width: 2, height: 2, decoration: "flat"){
-        	state "OFF", label: 'Amazon TV', action: "mp", icon:"st.Electronics.electronics9", backgroundColor: "#FFFFFF",nextState:"ON"   
-            state "ON", label: 'Amazon TV', action: "mp", icon:"st.Electronics.electronics9", backgroundColor: "#53a7c0", nextState:"OFF"              
+        	state "OFF", label: 'Apple TV', action: "mp", icon:"st.Electronics.electronics9", backgroundColor: "#FFFFFF",nextState:"ON"   
+            state "ON", label: 'Apple TV', action: "mp", icon:"st.Electronics.electronics9", backgroundColor: "#53a7c0", nextState:"OFF"              
 			}
         standardTile("input6", "device.bt", width: 2, height: 2, decoration: "flat"){
         	state "OFF", label: 'Bluetooth', action: "bt", icon:"st.Entertainment.entertainment2", backgroundColor: "#FFFFFF",nextState:"ON"   
